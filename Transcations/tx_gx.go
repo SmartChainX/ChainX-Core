@@ -125,4 +125,4 @@ func (t *TxInput) readFrom(r *blockchain.Reader) (err error) {
 			ii.Amount, err = blockchain.ReadVarint63(r)
 			if err != nil {
 				return err
-			}
+			} 
