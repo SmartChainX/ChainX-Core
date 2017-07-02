@@ -1,0 +1,13 @@
+---
+BasedOnStyle: Mozilla
+IndentWidth: 8
+TabWidth: 8
+ContinuationIndentWidth: 0
+UseTab: ForIndentation
+ColumnLimit: 0
+---
+Language: Cpp
+DerivePointerAlignment: false
+PointerAlignment: Right
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
