@@ -9,14 +9,14 @@ Set the `CHAINX` environment variable, in `.profile` in your home
 directory, to point to the root of the Chain source code repo:
 
 ```sh
-export CHAIN=$(go env GOPATH)/src/chain
+export CHAINX=$(go env GOPATH)/src/chainX
 ```
 
-You should also add `$CHAIN/bin` to your path (as well as
+You should also add `$CHAINX/bin` to your path (as well as
 `$(go env GOPATH)/bin`, if it isn’t already):
 
 ```sh
-PATH=$(go env GOPATH)/bin:$CHAIN/bin:$PATH
+PATH=$(go env GOPATH)/bin:$CHAINX/bin:$PATH
 ```
 
 You might want to open a new terminal window to pick up the change.
